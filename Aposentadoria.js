@@ -1,5 +1,5 @@
-function Aposentadoria()
-let nome = prompt ("Digite seu nome");
+function Aposentadoria(){
+let nome = (prompt("Digite seu nome"));
 let nascimento = parseInt(prompt("Digite sua ano de nascimento"));
 let admissao = parseInt(prompt("Digite o ano de admissão na empresa"));
 let tempoTrab = parseInt(0);
@@ -10,8 +10,8 @@ tempoTrab = (2022 - admissao);
 
 
 if (idade >= 60 && tempoTrab >= 25) {
-    alert ("O funcionário(a) +  nome + " Requerer aposentadoria, pois tem " + idade + " anos de idade e " + tempoTrab + " anos de trabalho.")
-} mais {
+    alert ("O funcionário(a) " +  nome + " Requerer aposentadoria, pois tem " + idade + " anos de idade e " + tempoTrab + " anos de trabalho.")
+} else {
 if (idade < 65) {
 
     if (tempoTrab < 30) {
@@ -19,4 +19,4 @@ if (idade < 65) {
   }
  }
 }
-}
+}}
