@@ -9,6 +9,8 @@
     <script type="text/javascript" src="ParImpar.js"></script>
     <script type="text/javascript" src="SomaDosNumeros.js"></script>
     <script type="Text/javascript" src="Aposentadoria.js"></script>
+    <script type="text/javascript" src="Temperatura.js"></script>
+    <script type="text/javascript" src="VelocidadeMedia.js"></script>
 </head>
 <body>
     <h1>Exercicio 1</h1>
@@ -19,5 +21,36 @@
     <input type="button" value="soma" onclick=" SomaDosNumeros()"><br>
     <h1>Exercicio4</h1>
     <input type="button" value="inss" onclick=" Aposentadoria()"><br>
+
+    <h1>Exercicio Conversão de Temperatura</h1>
+    <fieldset>
+        <legend> Converção de Temperatura</legend>
+    <label for="Centigrados">Centígrados</label>
+    <input type="number" id="Centigrados" ><br>
+
+
+    <label for="Fahrenheit">Fahrenheit </label>
+    <input type="number" id="Fahrenheit"><br>
+    <input type="button" value="Converter" onclick="ConverterTemperatura()">
+
+</fieldset><br><br>
+
+
+<fieldset>
+<input type="button" value="soma" onclick=" VelocidadeMedia()"><br>
+    <h1>Exercicio Velocidade Media</h1>
+    <legend> Velocidade Media</legend>
+    <label for="km por litros"> km por litros </label>
+    <input type="number" id="km/litros" onclick=" KmPorLitros()"><br>
+
+    <label for="Velocidade Media"> Velocidade Media </label>
+    <input type="number" id="Velocidade Media" onclick="VelicidadeMedia()"><br>
+
+    
+
+
+
+    </fieldset>
+<br><br>
 </body>
 </html>
